@@ -31,20 +31,25 @@
   width: 100%;
   margin: 20px;
   padding: 20px;
+  border-radius: 15px 15px 15px 15px;
 }
 #game{
 
   width: 700px;
   text-align: center;
   margin-left: 80px;
+  border-radius: 15px 15px 15px 15px;
+
 
 }
 
-#reset{
+#reset {
   background-color: #90ee90;
   display: center;
   margin:0 auto;
   text-decoration: none;
+  border-radius: 15px 15px 15px 15px;
+
 }
 
 

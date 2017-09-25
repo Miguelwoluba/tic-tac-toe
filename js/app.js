@@ -20,7 +20,7 @@ console.log('box1');
           {
 
               alert('o WON!, GAME OVER');
-                $('#game li').text('o');
+                $('#game li').text('+');
                 $('#game li').removeClass('disable');
                 $('#game li').removeClass('o');
                 $('#game li').removeClass('x');
