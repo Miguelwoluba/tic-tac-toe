@@ -6,13 +6,45 @@
   border: 1px solid black;
   height: 150px;
 }
-
+.text-center {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin:0 auto;
+}
 .button {
 
-    width: 50px;
-    background-color: red;
-  }
-#tic2 {
-    width: 600px;
+    width: 200px;
     background-color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+
+  }
+.container{
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  margin:0 auto;
+  background-color: black;
+  color:green;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
 }
+#game{
+
+  width: 700px;
+  text-align: center;
+  margin-left: 80px;
+
+}
+
+#reset{
+  background-color: #90ee90;
+  display: center;
+  margin:0 auto;
+  text-decoration: none;
+}
+
+
