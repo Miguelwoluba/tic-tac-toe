@@ -71,8 +71,8 @@ $(document).ready(function(){
             alert('o WINS!!!');
             count = 0;
             oWin++;
-            // $('#o_win').text(oWin);
-            updateScore(oWin);
+            $('#oWin').text(oWin);
+            //updateScore(oWin);
           }
       }
           else
@@ -92,8 +92,8 @@ $(document).ready(function(){
               alert('X wins');
               count = 0;
               xWin++;
-              // $('#x_win').text(xWin);
-              updateScore(xWin);
+               $('#xWin').text(xWin);
+              //updateScore(xWin);
             }
           }
 
@@ -111,11 +111,15 @@ $(document).ready(function(){
 
 
 
-function updateScore(points){
+//function updateScore(points){
+  //console.log('score:' + points);
+  //document.querySelector('#xWin').innerText = updateScore(xWin);
+  //document.querySelector('#oWin').innerText = updateScore(oWin);
+
   // if player X wins, display points in #x_win div
   // $('#x_win').text(points);
-  console.log('score:' + points);
-}
+
+//}
 
 
 
