@@ -6,3 +6,13 @@
   border: 1px solid black;
   height: 150px;
 }
+
+.button {
+
+    width: 50px;
+    background-color: red;
+  }
+#tic2 {
+    width: 600px;
+    background-color: white;
+}
