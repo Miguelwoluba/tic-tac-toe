@@ -8,7 +8,6 @@ $(document).ready(function(){
   var oWin = 0;
   var xWin = 0;
   $('#game li').click(function(){
-    console.log('box1');
     if ($('#one').hasClass('o')&& $('#two').hasClass('o')&& $('#three').hasClass('o')||
         $('#four').hasClass('o')&& $('#five').hasClass('o')&& $('#six').hasClass('o')||
         $('#seven').hasClass('o')&& $('#eight').hasClass('o')&& $('#nine').hasClass('o')||
@@ -111,15 +110,6 @@ $(document).ready(function(){
 
 
 
-//function updateScore(points){
-  //console.log('score:' + points);
-  //document.querySelector('#xWin').innerText = updateScore(xWin);
-  //document.querySelector('#oWin').innerText = updateScore(oWin);
-
-  // if player X wins, display points in #x_win div
-  // $('#x_win').text(points);
-
-//}
 
 
 
